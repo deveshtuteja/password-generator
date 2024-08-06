@@ -36,7 +36,18 @@ function App() {
   return (
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700">
-        <h1 className="text-white text-center my-3">Password Generator</h1>
+        <div className="flex w-full justify-center">
+          <div className="flex items-center">
+            <h1 className="text-white text-center font-bold text-xl">
+              Password Generator
+            </h1>
+            <img
+              src="https://play-lh.googleusercontent.com/1_Yqavw9mMbBwp42yl88chb2pXYa2IM-rzV34yOkP6onPlMTcEJl2Zp-_HNYyxV14A-w"
+              alt="logo"
+              className="w-8 ml-2 py-2"
+            />
+          </div>
+        </div>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
             type="text"
